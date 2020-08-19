@@ -1,0 +1,10 @@
+html {
+    /* prevents padding from stretching beyond view port width and adding horizontal scrollbar */
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    /* vh viewport height (full height of screen even if content doesn't fill it */
+    min-height: 100vh;
+}
